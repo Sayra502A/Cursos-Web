@@ -1,0 +1,58 @@
+
+*{
+	margin: 0 auto;
+	padding: 0 auto;
+	box-sizing: border-box;
+}
+
+body{
+
+	/*background-image:url(images/si.jpg); */
+	background-image: url(../images/sport.png);
+	font-size: 25px;
+	text-align: center;
+
+}
+div{
+  	color: #fff;
+  	background-color:#778899;
+  	font-weight: bold;
+  	padding: 5px;
+  	text-align: center;
+  	border: 2px solid #5D6063;
+  	border-radius: 5px;
+  	width:100px;
+  	box-sizing: border-box;
+  	margin: 10px auto;
+  	font-family: "AR JULIAN", "Arial", sans-serif;
+}
+
+h1{
+	color:#FFFF00;
+	font-size: 1.5em;
+	font-family: "Algerian" , "Arial", sans-serif;
+}
+
+h2{
+	color:#00BFFF;
+	font-size: 1em;
+	font-family: "AR JULIAN", "Arial", sans-serif;
+}
+
+p{
+	color:#000000;
+	font-size:1em;
+	font-family: "AR JULIAN","Arial", sans-serif;
+}
+
+.icons{
+	color:#00FFFF;
+	font-size: 1em;
+}
+
+.text{
+		color:#0000FF;
+		font-size:1em;
+		font-family: "AR JULIAN","Arial", sans-serif;
+	}
+
