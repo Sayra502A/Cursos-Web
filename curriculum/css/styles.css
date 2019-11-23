@@ -1,0 +1,117 @@
+/*https://www.nvinoticias.com/roja*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+	 background-image: url(../images/img.jpg);
+}
+
+.encabezado {
+  display: flex;
+}
+
+.titulo {
+  display: flex;
+  justify-content: center; 
+  align-items: center;
+  color: white;
+  width: 100%;
+}
+
+.titulo div {
+  text-align: center;
+}
+
+.menu1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 50px;
+}
+
+
+ul {
+  list-style: none;
+}
+
+
+.contenido {
+  padding: 30px;
+
+}
+
+
+.medio {
+  display: flex;
+  justify-content: center;
+  margin: 30px;
+
+}
+
+.botton{
+	color: #FFF;
+  	font-weight: bold;
+  	padding: 5px;
+  	text-align: center;
+  	border: 1px solid #5D6063;
+  	border-radius: 5px;
+  	width:100px;
+  	box-sizing: border-box;
+  	margin: 10px auto;
+}
+
+
+h1{
+	color:black;
+	font-size: 2.5em;
+	font-family: "Algerian" , "Arial", sans-serif;	
+}
+p{
+	font-size: 2em;
+		font-family: "AR JULIAN", "Arial", sans-serif;
+}
+h3{
+	font-size: 1.5em;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+  body{
+    justify-content: center;
+  }
+  .menu1{
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  .medio{
+    justify-content: center;
+    text-align: center;
+  }
+  p{
+    font-size: 1em;
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  .background-image: url("../images/img.jpg");
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .main {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  .menu1 {
+    height: 400px;
+  }
+  
+  .medio {
+    order: 2;
+  }
+}

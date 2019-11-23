@@ -1,0 +1,119 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*https://www.google.com/search?hs=j0G&channel=fs&sxsrf=ACYBGNSsSPqXAlVpYPnY2qA-tUwNbIrXjg:1573335522220&q=imagenes+para+fondos+de+paginas&tbm=isch&source=univ&client=ubuntu&sa=X&ved=2ahUKEwi_96fHi97lAhVKXq0KHd04CU8QsAR6BAgHEAE&biw=1855&bih=962#imgdii=rLgloFWVJmv75M:&imgrc=dunEhLEivie8aM:*/
+.principal{
+	background-image: url("../images/f.jpg");
+	width: 100%;
+}
+.page {
+  
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  background-color: white;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+.header {
+   display: flex;
+  height: 200px;
+  justify-content: inherit;
+  align-items: inherit;
+}
+.photo img{
+	display: flex;
+  width: 107.5%;
+  height: 100%;
+  align-items: center;
+}
+
+.content {
+	display: flex;
+ /* background-image:url("../images/fondo.jpg");*/
+  height: 600px;
+  padding: 30px;
+  align-content: center;
+  text-align: center;
+  text-decoration-color: white;
+}
+
+.botton{
+	color: #FFF;
+  	text-decoration-color: blue;
+  	text-decoration-style: red;
+  	font-weight: bold;
+  	padding: 5px;
+  	text-align: center;
+  	border: 1px solid #5D6063;
+  	border-radius: 5px;
+  	width:100px;
+  	box-sizing: border-box;
+  	margin: 10px auto;
+}
+h1{
+	color:#00008B;
+	font-size: 2.5em;
+	font-family: "Algerian" , "Arial", sans-serif;	
+}
+h2{
+	font-size: 2em;
+		font-family: "AR JULIAN", "Arial", sans-serif;
+}
+h3{
+	font-size: 1.5em;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+ .header{
+ 	height: 200px;
+ 	display: flex;
+ }
+ .content{
+ 	height: auto;
+ }
+  body {
+  	display: flex;
+  	width: 100%;
+  	height: 400px;
+    background-image:url("../images/fondo.jpg");
+  }
+}
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  
+  background-image:url("../images/fondo.jpg");
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    height: 400px;
+  }
+  
+  .content {
+    order: 2;
+  }
+}

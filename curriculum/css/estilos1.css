@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/*https://www.google.com/search?hs=j0G&channel=fs&sxsrf=ACYBGNSsSPqXAlVpYPnY2qA-tUwNbIrXjg:1573335522220&q=imagenes+para+fondos+de+paginas&tbm=isch&source=univ&client=ubuntu&sa=X&ved=2ahUKEwi_96fHi97lAhVKXq0KHd04CU8QsAR6BAgHEAE&biw=1855&bih=962#imgdii=rLgloFWVJmv75M:&imgrc=dunEhLEivie8aM:*/
+.principal{
+	background-image: url("../images/cin.jpg");
+	width: 100%;
+  align-items: flex-start;
+}
+.page {
+  
+  flex-wrap: wrap;
+}
+
+.section {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  text-align: center;
+}
+
+.header {
+   display: flex;
+  height: 200px;
+  justify-content: inherit;
+  align-items: inherit;
+}
+.photo img{
+	display: flex;
+  position: relative;
+  top: 20px;
+  left: 80px;
+  width: 900px;
+  height: 300px;
+  /*width: 100%;
+  height: 100%;
+  align-items: center;*/
+}
+
+.content {
+	display: flex;
+  width: 100%;
+  height: auto;
+  padding: 30px;
+   justify-content: space-around;
+  text-align: center;
+ 
+}
+
+.medio{
+  display: flex;
+  width: auto;
+  height: auto;
+  padding: 30px;
+  flex-direction: column;
+  text-align: center;
+}
+
+.botton{
+	color: #FFF;
+  	font-weight: bold;
+  	padding: 5px;
+  	text-align: center;
+  	border: 1px solid #5D6063;
+  	border-radius: 5px;
+  	width:100px;
+  	box-sizing: border-box;
+  	margin: 10px auto;
+}
+.information {
+  display:flex;
+  width: 500px;
+  padding: 100px;
+  height: 100px;
+  text-align: center;
+}
+p{
+  text-align: center;
+  text-decoration-color: blue;
+  font-size: 2em;
+  font-family: "Algerian" , "Arial", sans-serif;  
+}
+.video-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.video-grid {
+  width: auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;  
+}
+
+.video-grid-item {
+  border: 2px solid #fff;
+  width: auto;
+  height: auto;
+}
+
+
+
+h1{
+	color:white;
+	font-size: 2.5em;
+	font-family: "Algerian" , "Arial", sans-serif;	
+}
+h2{
+	font-size: 2em;
+		font-family: "AR JULIAN", "Arial", sans-serif;
+}
+h3{
+	font-size: 1.5em;
+}
+
+/* Mobile Styles */
+@media only screen and (max-width: 400px) {
+ .content{
+  justify-content: space-around;
+ }
+ .header{
+ 	height: auto;
+ 	display: flex;
+  text-align: center;
+ }
+
+  .information{
+    height: auto;
+    text-align: center;
+  }
+  .video-container{
+    align-items: center;
+    width: auto;
+  }
+ .photo img{
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 20px;
+    left: 60px;
+    width: 80%;
+    height: 180px;
+ }
+ p{
+ 	font-size: 1em;
+ }
+ .medio{
+ 	justify-content: center;
+ }
+}
+
+
+/* Tablet Styles */
+@media only screen and (min-width: 401px) and (max-width: 960px) {
+  background-image:url("../images/fondo.jpg");
+}
+
+
+/* Desktop Styles */
+@media only screen and (min-width: 961px) {
+  .page {
+    width: 960px;
+    margin: 0 auto;
+  }
+  
+  .header {
+    height: 400px;
+  }
+  
+  .content {
+    order: 2;
+  }
+  .information{
+    text-align: center;
+  }
+}
