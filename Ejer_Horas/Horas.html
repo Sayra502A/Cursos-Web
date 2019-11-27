@@ -1,0 +1,47 @@
+<!--ejercicio que calcula la diferencia entre dos horas-->
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Horas</title>
+    <script type="text/javascript">
+        
+        var horas= +prompt("Ingresa las horas del primer instante de tiempo");
+        var minutos= +prompt("Ingresa los minutos del primer instante de tiempo");
+        var segundos= +prompt("Ingresa los segundos del primer instante de tiempo");
+
+        var hora= +prompt("Ingresa las horas del segundo instante de tiempo");
+        var minuto= +prompt("Ingresa los minutos del segundo instante de tiempo");
+        var segundo= +prompt("Ingresa los segundos del segundo instante de tiempo");
+	
+     
+	if(horas>hora)
+		  	h=horas-hora;
+
+	else
+		  	h=hora-horas;
+	if(minutos>minuto){
+			m=minutos-minuto;
+		}
+		else{
+			m=minuto-minutos;		
+		}
+	if(segundos>segundo)
+		s=segundos-segundo;
+	else
+		s=segundo-segundos;
+	if(m>29)
+		h-=1;
+	if(s>29){
+		m-=1;	
+	}
+		
+alert("horas\n"+h+":"+m+":"+s);
+         
+        
+    </script>
+</head>
+<body>
+
+</body>
+</html>
